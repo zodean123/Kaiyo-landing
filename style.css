@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:"Rubik";
+};
+html{
+    font-size:62.5%;
+}
+header{
+    padding:2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header .navbar-brand{
+    font-size: 2rem;
+    color: blue;
+}
+.header .navigation-wrap .navbar-list{
+    display: inline-flex;
+
+   gap: 3.8rem;
+   list-style: none;
+   font-size: 1rem;
+
+    
+}
+.nav-link{
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    list-style: none;
+    gap:1rem;
+    padding-right: 5rem; 
+    
+}
+.button .black-btn{
+    background-color:333740;
+    border-radius: 2rem;
+    width:7.5rem;
+    height:2.5rem;
+   color: antiquewhite;
+   font-size: 0.75rem;
+}
+.button .main-btn{ 
+    border-radius: 2rem ;
+ border-style: none;
+    width:7.5rem;
+    height:2.5rem;
+   color: rgb(34, 33, 31);
+   font-size: 0.75rem;
+}
+.main-tag{
+font-size: 4rem;
+padding:10rem 30rem;
+font-weight:100000;
+}
+.section-1{
+    display:flex;
+    align-items: center;
+gap:0.5rem;
+font-size: medium;
+transform: translateX(26%) translateY(-350%); 
+font-size: 2rem;
+
+}
+.section-1 .link{
+  text-decoration: none;
+}
+
