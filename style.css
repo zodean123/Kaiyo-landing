@@ -54,7 +54,7 @@ header{
 }
 .main-tag{
 font-size: 4rem;
-padding:10rem 30rem;
+padding:10rem 25rem;
 font-weight:100000;
 }
 .section-1{
@@ -66,7 +66,56 @@ transform: translateX(26%) translateY(-350%);
 font-size: 2rem;
 
 }
-.section-1 .link{
-  text-decoration: none;
+.text{
+    position: absolute;
+    gap:2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #1f70ea;
+    transform:translateY(-200%);
+    padding: 0rem 25rem;
 }
+.text-1{
+    
+    position: absolute;
+    gap:2px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #1f70ea;
+    transform:translateY(-70%);
+    padding: 0rem 25rem;
+
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.but .but-1{
+    background-color:333740;
+    border-radius: 0.2rem;
+    width:12rem;
+    height:2.5rem;
+   color: antiquewhite;
+   font-size: 1rem;
+   transform: translateY(200%) translateX(-8rem);
+
+}
+.but .but-2{
+    font-size: 1rem;
+   color:rgb(34, 33, 31);
+   height:2.5rem;
+   width:10rem;
+   font-weight: 500;
+   transform: translateY(200%) translateX(-5rem);
+}
+
+
 
