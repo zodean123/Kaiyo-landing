@@ -107,3 +107,76 @@ transform: translateX(-20%) translateY(-150%);
    color: antiquewhite;
    font-size:1.2rem;
 }
+.fourth-banner{
+    margin-top: 200px;
+}
+ .fourth-banner-1{
+    margin:auto;
+    width:20vw;
+    transform: translateX(-100%);
+}
+.image-2{
+    transform: translateX(18vw);
+}
+.fourth-banner-2{
+    margin:auto;
+    width: 20vw;
+transform:   translateX(10vw) translateY(-20vw);
+}
+.image-3{
+    transform: translateX(50vw) translateY(-20vw);
+}
+.image-4{
+    transform: translateX(18vw) translateY(-150%);
+}
+.fourth-banner-3{
+    margin:auto;
+    width:20vw;
+    transform: translateX(-20vw) translateY(-12vw);
+}
+.image-5{
+    transform: translateX(50vw) translateY(-340%);
+}
+.fourth-banner-4{
+    margin:auto;
+    width:20vw;
+    transform:translateX(10vw) translateY(-370%);
+}
+.fifth-banner{
+    display: flex;
+    justify-content: center;
+  
+}
+.fifth-banner .button-5{
+    background: #5E4FFF;
+    text-decoration: none;
+    padding:20px 20px;
+   border: none;
+   color: #ffffff;
+   font-size: 20px;
+   transform: translateX(8vw) translateY(-490%);
+   border-radius: 10px;
+}
+.fifth-banner .button-6{
+    color: aliceblue;
+    background: #333740;
+    padding: 20px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transform:translateX(10vw) translateY(-490%);
+}
+ .fifth-banner .space-top-xl{
+    transform: translate(-20vw) translateY(-370%);
+    font-size: 1rem;
+ }
+
+ .sixth-banner .sixth-1{
+    font-size:2.5rem;
+transform: translateX(10vw) translateY(-15vw);
+ }
+ .sixth-banner .sixth-2{
+    font-size: 1rem;
+    padding: 2rem 20rem;
+    transform: translateX(-11vw) translateY(-230%);
+ }
