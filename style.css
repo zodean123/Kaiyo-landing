@@ -52,70 +52,58 @@ header{
    color: rgb(34, 33, 31);
    font-size: 0.75rem;
 }
-.main-tag{
-font-size: 4rem;
-padding:10rem 25rem;
-font-weight:100000;
-}
-.section-1{
+.first-banner{
     display:flex;
-    align-items: center;
-gap:0.5rem;
-font-size: medium;
-transform: translateX(26%) translateY(-350%); 
-font-size: 2rem;
-
-}
-.text{
-    position: absolute;
-    gap:2px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    
-    color: #1f70ea;
-    transform:translateY(-200%);
-    padding: 0rem 25rem;
-}
-.text-1{
-    
-    position: absolute;
-    gap:2px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    
-    color: #1f70ea;
-    transform:translateY(-70%);
-    padding: 0rem 25rem;
-
-}
-.but{
-    display: flex;
     justify-content: center;
-    align-items: center;
-    list-style: none;
+    transform: translateY(30%);
+
 }
-.but .but-1{
-    background-color:333740;
+.first-banner .first{
+    width:50vw;
+    font-size:70px;;
+    font-weight:800;
+    height:50vw;
+
+}
+.first-banner .image-1{
+    transform: translateX(-20%);
+}
+.second-banner{
+margin:auto;
+width:50%;
+transform: translateX(-20%) translateY(-150%);
+
+}
+
+.second-banner .second-1{
+    
+    font-size: larger;
+    margin-bottom: 20px;
+
+}
+.second-banner .second-2{
+    font-size: larger;
+}
+.third-banner{
+    margin:auto;
+    width:30%;
+  margin-top: -10%;
+}
+.third-banner .button-3{
+    text-decoration: none;
+    border-radius:0.2rem ;
+    
+       padding: 0.8rem;
+       height:2.5rem;
+      color: rgb(34, 33, 31);
+      font-size: 1.2rem;
+   }
+.third-banner .button-4{
+    text-decoration: none;
+    background-color:#333740;
     border-radius: 0.2rem;
-    width:12rem;
+   padding: 0.8rem ;
     height:2.5rem;
    color: antiquewhite;
-   font-size: 1rem;
-   transform: translateY(200%) translateX(-8rem);
-
+   font-size:1.2rem;
 }
-.but .but-2{
-    font-size: 1rem;
-   color:rgb(34, 33, 31);
-   height:2.5rem;
-   width:10rem;
-   font-weight: 500;
-   transform: translateY(200%) translateX(-5rem);
-}
-
-
-
