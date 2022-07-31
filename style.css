@@ -3,6 +3,7 @@
     margin:0;
     box-sizing:border-box;
     font-family:"Rubik";
+   
 };
 html{
     font-size:62.5%;
@@ -116,7 +117,7 @@ transform: translateX(-20%) translateY(-150%);
     transform: translateX(-100%);
 }
 .image-2{
-    transform: translateX(18vw);
+    transform: translateX(18vw) ;
 }
 .fourth-banner-2{
     margin:auto;
@@ -135,7 +136,7 @@ transform:   translateX(10vw) translateY(-20vw);
     transform: translateX(-20vw) translateY(-12vw);
 }
 .image-5{
-    transform: translateX(50vw) translateY(-340%);
+    transform: translateX(50vw) translateY(-360%);
 }
 .fourth-banner-4{
     margin:auto;
@@ -180,3 +181,156 @@ transform: translateX(10vw) translateY(-15vw);
     padding: 2rem 20rem;
     transform: translateX(-11vw) translateY(-230%);
  }
+.seventh-banner{
+    display: flex;
+    font-size:1rem;
+  
+    width: max-content;
+
+ 
+}
+
+.seventh-banner .content-1{
+    margin-top:30px;
+}
+.seventh-banner .seventh-1{
+    border: 2px solid rgb(238, 235, 235) ;
+    transform: translateX(15vw) translateY(-130%);
+    padding: 20px;
+}
+.seventh-banner .seventh-2{
+    border: 2px solid rgb(238, 235, 235) ;
+    transform: translateX(18vw) translateY(-130%);
+    padding: 20px;
+}
+.seventh-banner .content-2{
+    margin-top:30px;
+}
+.seventh-banner .seventh-3{
+    border: 2px solid rgb(238, 235, 235) ;
+    transform: translateX(21vw) translateY(-130%);
+    padding: 20px;
+}
+.seventh-banner .content-3{
+    margin-top:30px;
+}
+.eigth-banner{
+    margin:auto;
+    padding: 400px;
+    transform: translateX(-10%) translateY(-36%);
+}
+.eigth-banner .eigth-1{
+    font-size:40px;
+    margin-bottom: 30px;
+}
+.eigth-banner .eigth-2{
+    font-size:17px;
+}
+.eigth-banner .eigth-3{
+    transform: translateX(-10%);
+    margin-top: 40px;
+}
+.ninth-banner{
+    transform:  translateX(15vw ) translateY(-60vw);
+}
+.ninth-banner .ninth-1{
+ transform: translateX(10vw);
+  font-weight: 100;
+  font-size: larger;
+    
+}
+.tenth-banner{
+    display:block;
+ transform: translateX(30vw) translateY(-50vw);
+ 
+}
+.tenth-banner .tenth-1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.tenth-banner .selected{
+    padding:10px;
+   font-size: 1.3rem;
+    margin-top: 30px;
+background:#F2F4F7;
+width:40%;
+}
+.eleventh{
+    font-size: 3rem;
+   transform: translateX(5vw) translateY(-150%);
+   padding: 200px;
+}
+.eleventh-banner{
+    display: flex;
+justify-content:center;
+width:65vw;
+transform: translateX(18vw) translateY(-400%);
+}
+.eleventh-banner .eleventh-one{
+    font-size:1.3rem;
+    margin-top: 2.3rem;
+}
+.twelve-banner{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    transform:  translateX(-10vw) translateY(-60vw);
+}
+.eleventh-three{
+ background: #EBEDF2;
+ text-decoration: none;
+ padding: 10px 25px;
+
+ border: none;
+ color: #333740;
+ font-size: 20px;
+ border-radius: 10px;
+display: flex;
+}
+.eleventh-four{
+    background: #5E4FFF;
+    text-decoration: none;
+    padding: 20px 20px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+.above-footer{
+    width:100%;
+    background: #DADEE6;
+    height:max-content;
+    transform: translateY(-55vw);
+}
+.above-footer .footer-1{
+    color:#afb1b5;
+}
+.above-footer .footer-2{
+    border-radius: 2rem;
+    border-style: none;
+    width: 7.5rem;
+    height: 2.5rem;
+    color: rgb(34, 33, 31);
+    font-size: 0.75rem;
+    text-decoration: none;
+}
+.above-footer .footer-3{
+    background-color: #333740;
+    border-radius: 2rem;
+    width: 7.5rem;
+    height: 2.5rem;
+    color: antiquewhite;
+    font-size: 0.75rem;
+    text-decoration: none;
+}
+.above-footer .footer{
+    transform: translateY(50%);
+    margin-left: 50px;
+}
+.above-footer .right{
+    display: flex;
+    justify-content: right;
+transform: translateY(-50%);
+
+}
