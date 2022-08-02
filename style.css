@@ -6,12 +6,11 @@
     /* border:solid 1px red !important;
     outline:1px red !important; */
 
-    
-   
-};
-html{
-    font-size:62.5%;
 }
+/* html{
+    font-size:62.5%;
+} */
+
 header{
     /* padding:2rem 2rem; */
     display: flex;
@@ -51,6 +50,7 @@ header{
    color: antiquewhite;
    font-size: 0.75rem;
 }
+
 .button .main-btn{ 
     border-radius: 2rem ;
  border-style: none;
@@ -73,8 +73,20 @@ header{
     /* margin-top:100px; */
 
 }
-.first-banner .image-1{
+@media(max-width:768px){
+     .first-banner .first{
+        max-width: 100%;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+/* .first-banner .image-1{
     
+} */
+@media(max-width:768px){
+    .image-1{
+        display: none;
+    }
 }
 .second-banner{
 margin:auto;
@@ -117,6 +129,7 @@ width:50%;
        /* height:2.5rem; */
       color: rgb(34, 33, 31);
       font-size: 1.2rem;
+      min-width: fit-content;
    }
 .third-banner .button-4{
     text-decoration: none;
@@ -126,14 +139,33 @@ width:50%;
     height:2.5rem;
    color: antiquewhite;
    font-size:1.2rem;
+   min-width:fit-content;
 }
+@media(max-width:768px){
+    .third-banner{
+        display: flex;
+        flex-direction:column;
+        margin: 20px 80px;
+    }
+}
+/* @media(max-width:768px){
+    .button-3{
+
+    }
+} */
 .fourth-banner{
     margin-top: 200px;
     display: grid;
     grid-template-columns: auto auto ;
     /* grid-template-rows: ; */
-    
 
+
+}
+@media(max-width:768px){
+   .fourth-banner{
+    display: grid;
+grid-template-columns: auto;
+    }
 }
  .fourth-1{
     /* margin:auto; */
@@ -142,32 +174,44 @@ width:50%;
     max-width: 50%;
     margin-left:25%;
 }
-.image-2{
-   
-}
+/* .image-2{
+    
+} */
 .fourth-banner-2{
     margin:auto;
     width: 20vw;
 
+
 }
-.image-3{
-  
+/* .image-3{
+   
+
 }
 .image-4{
     
 }
-.fourth-banner-3{
-    margin:auto;
-    width:20vw;
-
-}
 .image-5{
-   
-}
-.fourth-banner-4{
-    margin:auto;
-    width:20vw;
- 
+  
+} */
+
+@media(max-width:768px){
+    .image-2{
+        height:30vw;
+        width:30vw;
+    }
+    .image-3{
+        height:30vw;
+        width:30vw;
+    }
+    .image-4{
+        height:30vw;
+        width:30vw;
+    }
+    .image-5{
+        height:30vw;
+        width:30vw;
+    }
+
 }
 .fifth-banner{
     display: flex;
@@ -198,6 +242,35 @@ width:50%;
     
     font-size: 1rem;
  }
+ @media(max-width:768px){
+    .fifth{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .button-5{
+        /* display: flex;
+        flex-direction: column; */
+        /* flex-basis: 100vw;
+        flex: 1;
+        overflow:hidden;
+        display: flex; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content:center;
+    }
+    .button-6{
+        /* display: flex;
+  flex-direction: column; */
+  /* flex-basis: 100vw;
+  flex: 1;
+  overflow:hidden;
+  display: flex; */
+  align-items: center;
+  justify-content:center;
+    }
+ }
 
  .sixth-banner .sixth-1{
     font-size:2.5rem;
@@ -221,6 +294,25 @@ width:50%;
     /* width: max-content; */
 
  
+}
+@media(max-width:768px){
+    .seventh-banner{
+        display: grid;
+        grid-template-columns: auto;
+    
+    }
+    .seventh-1{
+        font-size: 20px;
+        max-width: fit-content;
+    }
+    .seventh-2{
+    margin-top: 20px;
+    }
+    .seventh-3{
+       margin-top: 20px;
+       margin-bottom: 20px;
+    }
+
 }
 
 .seventh-banner .content-1{
@@ -283,6 +375,8 @@ width:50%;
 
  
 }
+
+
 .tenth-banner .tenth-1{
     font-size: 3rem;
     font-weight: 600;
@@ -316,6 +410,47 @@ justify-content:center;
 
 
 
+}
+@media(max-width:768px){
+     .eleventh-two{
+     display: none;
+    }
+    .eleventh{
+        font-size: 40px;
+        max-width: 100vw;
+    }
+    .eleventh-one{
+       margin-bottom: 20px;
+        max-width: 100vw;
+    margin-bottom: 4rem;      
+    }
+    .twelve-banner{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    .eleventh-three{
+      
+       
+        align-items: center;
+        justify-content:center;
+        height: fit-content;
+    }
+    .eleventh-four{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content:center;
+    }
+    .footer-3{
+        display: none;
+    }
+    .footer-2{
+        display: none;
+    }
+  .selected{
+ font-size: 0.8rem;
+  }
 }
 .eleventh-banner .eleventh-one{
     font-size:1.3rem;
@@ -370,6 +505,7 @@ display: flex;
     color: rgb(34, 33, 31);
     font-size: 0.75rem;
     text-decoration: none;
+  margin-bottom: 30px;
 }
 .above-footer .footer-3{
     background-color: #333740;
@@ -381,7 +517,7 @@ display: flex;
     text-decoration: none;
 }
 .above-footer .footer{
-    
+  
     margin-left: 50px;
 }
 .above-footer .right{
@@ -389,4 +525,14 @@ display: flex;
     justify-content: right;
 
 
+}
+@media(max-width:998px){
+    .html{
+font-size: 55%;
+    }
+}
+@media(max-width:768px){
+    .html{
+        font-size:45%;
+    }
 }
